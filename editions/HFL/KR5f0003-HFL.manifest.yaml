@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5f0003/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5f0003/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君清靜心經
+  date: '2015-08-29 02:17:58.724248'
+  source:
+    repository: kanripo
+    path: KR5f0003
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5f0003_000-HFL.yaml, hash: 'sha256:ff7e896010347922df6633b13892582029aceeb8beb7af6efd5aa25ac1ba734c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5f0003_000-HFL.markers.yaml, hash: 'sha256:1457e9b5da54e3c0d48da4d3a5fa6cd539bd02491bb95ff75a6fba3ea6da9ca4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5f0003_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 244
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8c1a1980f3f24eefe2dccda867b9de07ae25b9de75c64e7ea8b6b3d69ab2278b

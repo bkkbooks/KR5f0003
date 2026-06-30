@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5f0003/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5f0003/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君清靜心經
+  date: '2015-08-29 02:17:58.724248'
+  source:
+    repository: kanripo
+    path: KR5f0003
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5f0003_000-ZTDZ.yaml, hash: 'sha256:a637e7a59079efce8c0b481c19e311c26d46893b30a6eb41c4e1e0e7278e2d45'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5f0003_000-ZTDZ.markers.yaml, hash: 'sha256:51b5d4e8246e1324c4d78a41a7c0ad2feda44929839e4cd4d604d877a87b12f3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5f0003_SJB_000-270156c
+    span:
+    - body
+    - 0
+    - 244
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c5cc2c35bad619d1cc23f40ab77cdbddb640d8b9f3cee61094ea184059a39b65
